@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body{
+	margin: auto;
+	font-family: Arial;
+}
+/*****************************NAVBAR*******************************/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #24252A; /**color background***/	
+
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px 2%;
+    
+}
+.logo{  /********logo image*****/
+	cursor: pointer;
+	width: 90px;
+
+}
+.main-nav{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	font-size: 1em;
+
+}
+@media only screen and (max-width: 600px)   {
+    .main-nav {
+        font-size: 0.5em;
+        padding: 0;
+    }
+}
+.push {
+    margin-left: auto;
+}
+
+li {
+    padding: 20px;
+}
+
+a{
+	color: #96B596;
+	text-decoration: none;
+}
+
+.main-nav li a{
+	transition: all 0.3s ease 0s;
+
+}
+
+.main-nav li a:hover {
+/*****color green****/
+	color: #00E500;
+
+}
+
+
+ 
+
+/*****************************Welcome*************************************/
+
+/**begin yout adventure**/
+.welcome-container h3{
+	display: flex;
+	justify-content: center;
+	font-size: 30px;
+	margin: 30px;
+	
+}
+strong{
+	font-size: 40px;
+
+}
+
+
+.welcome-sign-img{
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+
+
+}
+.welcome-img{
+	width: 35em;
+	height: 10px;
+}
+/**********************************About******************************/
+.aboutlogo {  /********logo image*****/
+
+	cursor: pointer;
+	width: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.box:hover {
+    -webkit-transform: rotate(-7deg);
+    -moz-transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    transform: rotate(-7deg);
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 20px;
+}
+
+.box { 
+    background-color: #444;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+
+.box > img {
+    width: 100%
+   
+}
+.box h4{
+	font-size: 1.25em;
+	text-align: center;
+	padding: 10px;
+	border-radius: 5px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+    color: #057C1A;
+}
+.yourself{
+	border-radius: 5px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+.world{
+	border-radius: 5px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+.hanshake{
+	border-radius: 5px;
+	border-top-left-radius: 70px;
+	border-bottom-right-radius: 70px;
+}
+.me{
+   border-radius: 5px;
+   border-top-left-radius: 70px;
+   border-bottom-right-radius: 70px;
+}
+
+
